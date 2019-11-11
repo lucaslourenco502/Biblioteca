@@ -9,11 +9,11 @@ public  class HelperLivro extends Livro{
 	Livro livro = new Livro();
 	
 	
-	public void cadastraLivro(Livro livro) {
-		this.lista.add(livro); 
+	public void cadastraLivro(Livro l1) {
+		this.lista.add(l1); 
 	}
 	
-	public void excluirLivro(String r) {
+	public void excluirLivro(Livro l1) {
 		for (int cont = 0; cont < lista.size(); cont++) 
 			if (lista.get(cont).getNomeLivro().equals(nomeLivro))
 				lista.remove(cont);
