@@ -1,6 +1,7 @@
 package unifcv.biblioteca;
 
 
+import java.awt.List;
 import java.util.ArrayList;
 
 public  class HelperLivro extends Livro{
@@ -33,6 +34,7 @@ public  class HelperLivro extends Livro{
 	
 	public void exibirDisp() {
 		System.out.println(lista.size());
+		System.out.println(lista[0]);
 	}
 
 	public void exibirAlugados() {

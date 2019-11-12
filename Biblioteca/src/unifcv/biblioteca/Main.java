@@ -15,16 +15,16 @@ public class Main {
 	    do { 
 	    	System.out.println("        SISTEMA BIBLIOTECA");
 	    	System.out.println("------------------------------------");
-	    	System.out.println("1- Cadastrar Livro");
-	    	System.out.println("2- Excluir Livro");
-		    System.out.println("3- Alugar Livro");
-		    System.out.println("4- Devolver Livro");
-		    System.out.println("5- Exibir todos os livros disponíveis");
-		    System.out.println("6- Exibir todos os livros alugados");
-		    System.out.println("7- Exibir os livros de forma ordenada");
-		    System.out.println("8- Sair");
+	    	System.out.println("(1)- Cadastrar Livro");
+	    	System.out.println("(2)- Excluir Livro");
+		    System.out.println("(3)- Alugar Livro");
+		    System.out.println("(4)- Devolver Livro");
+		    System.out.println("(5)- Exibir livros disponíveis");
+		    System.out.println("(6)- Exibir livros alugados");
+		    System.out.println("(7)- Exibir livros de forma ordenada");
+		    System.out.println("(8)- Sair");
 		    System.out.println("--------------------------------------");
-		    System.out.print("Insira a operação que deseja realizar: ");
+		    System.out.print("Qual a operação que deseja realizar? ");
 		    System.out.println("\n");
 		    Scanner op  = new Scanner(System.in);
 	    	
@@ -46,8 +46,7 @@ public class Main {
 	            case 2: 
 	                    System.out.print("Insira o nome do livro que deseja remover: ");
 	                    remove = entrada.nextLine();
-	                    hl.excluirLivro(l1);
-	                    System.out.println("Livro excluido com sucesso!");
+	                    hl.excluirLivro(l1);	                
 	                    break;                
 	            case 3: 	                  
 	            case 4: 
